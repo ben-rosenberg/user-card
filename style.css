@@ -1,0 +1,85 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+
+.user_card {
+    width: 800px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    justify-content: flex-end;
+}
+
+.top_color_strip {
+    max-height: 110px;
+    background-color: #17a2b8;
+}
+
+.user_picture {
+    background-color: white;
+    max-height: 100px;
+    max-width: 100px;
+    position: relative;
+    top: 50px;
+    right: -33px;
+    padding: 3px;
+    border: 3.5px solid #cccccc;
+    border-radius: 50%;
+}
+
+.icons {
+    max-height: 22px;
+    width: auto;
+}
+
+.user_info {
+    flex: 1;
+    border-right: 4px solid #cccccc;
+    border-bottom: 4px solid #cccccc;
+    border-left: 4px solid #cccccc;
+    padding: 0px 30px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.users_name {
+    font-size: 24pt;
+}
+
+.location {
+    height: 28px;
+    display: flex;
+    gap: 15px;
+}
+
+.location_icon {
+    align-self: flex-end;
+}
+
+.city_name {
+    font-size: 17pt;
+    font-weight: lighter;
+    align-self: flex-start;
+    text-align: start;
+}
+
+.user_credentials {
+    font-size: 14pt;
+}
+
+.user_description {
+    font-size: 14pt;
+}
+
+.edit_profile_link {
+    max-width: 125px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
